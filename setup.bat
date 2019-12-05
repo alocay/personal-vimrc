@@ -24,7 +24,7 @@ copy .vimrc %USERPROFILE%
 echo.
 echo Installing plugins...
 
-vim +PluginInstall +qall
+vim -E -s -u %USERPROFILE%\.vimrc +PluginInstall +qall
 
 echo.
 echo Complete

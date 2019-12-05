@@ -38,6 +38,6 @@ endif
 
 let g:airline_theme = 'tender'
 
-colorscheme tender
+silent! colorscheme tender
 
 set tabstop=4 shiftwidth=4 expandtab
